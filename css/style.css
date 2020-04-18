@@ -26,10 +26,17 @@ body {
 /* INIZIO HEADER */
 header {
   background: #001a4f;
-  height: 400px;
+  height: 600px;
+  background-image: url("../img/background-header.png");
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: 112% 108%;
 }
 
-/* navigazione */
+/* Inizio navigazione */
+header nav {
+  padding-top: 10px;
+}
 header nav .col {
   float: left;
 }
@@ -46,14 +53,15 @@ header nav .menu-right {
   width: 40%;
 }
 
+/* istruzioni relative ai link del menu */
 header nav .menu li  {
   list-style-type: none;
   display: inline-block;
   margin: 15px 8px;
 }
 
-header nav {
-  padding-top: 10px;
+header nav .menu li a:hover  {
+  color: orange;
 }
 
 header nav .menu li a {
@@ -64,6 +72,7 @@ header nav .menu li a {
   font-weight: bold;
 }
 
+/* menu parte destra*/
 header nav .menu-right {
   text-align: right;
 }
@@ -79,9 +88,31 @@ header nav .menu-right .green {
   padding: 7px 5px;
   background: #7bbc00;
 }
+/* Fine navigazione*/
 
-header nav .menu li a:hover  {
-  color: orange;
+/* Inizio teaser*/
+.teaser {
+  color: white;
+  width: 30%;
+  font-size: 20px;
+  position: absolute;
+  transform: translate(235px,235px);
+  line-height: 1.5;
+
 }
+
+.teaser .cta {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  background:  #7bbc00;
+  border-radius: 2px;
+  padding: 10px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 30px;
+}
+/* Fine teaser*/
+
 
 /* FINE HEADER */
