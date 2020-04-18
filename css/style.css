@@ -1,0 +1,87 @@
+/* INIZIO RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* FINE RESET */
+
+/* INIZIO REGOLE GENERALI */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  width: 1280px;
+  margin: auto;
+  height: 100%;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* FINE REGOLE GENERALI */
+
+/* INIZIO HEADER */
+header {
+  background: #001a4f;
+  height: 400px;
+}
+
+/* navigazione */
+header nav .col {
+  float: left;
+}
+
+header nav .logo {
+  width: 15%;
+}
+
+header nav .menu-center {
+  width: 45%;
+}
+
+header nav .menu-right {
+  width: 40%;
+}
+
+header nav .menu li  {
+  list-style-type: none;
+  display: inline-block;
+  margin: 15px 8px;
+}
+
+header nav {
+  padding-top: 10px;
+}
+
+header nav .menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+header nav .menu-right {
+  text-align: right;
+}
+
+header nav .menu-right .login {
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 5px 20px;
+}
+
+header nav .menu-right .green {
+  border-radius: 2px;
+  padding: 7px 5px;
+  background: #7bbc00;
+}
+
+header nav .menu li a:hover  {
+  color: orange;
+}
+
+/* FINE HEADER */
