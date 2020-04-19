@@ -10,6 +10,8 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+/* contenitore per dare la larghezza dei contenuti di tutta la pagina*/
 .container {
   width: 1280px;
   margin: auto;
@@ -24,7 +26,7 @@ body {
 /* FINE REGOLE GENERALI */
 
 /* INIZIO HEADER */
-header {
+header .navigation-teaser {
   background: #001a4f;
   height: 600px;
   background-image: url("../img/background-header.png");
@@ -119,6 +121,7 @@ header .grey-row {
   background: #DCDCDC;
   text-align: center;
   padding: 25px 0px;
+  height: 120px;
 }
 
 header .grey-row p {
@@ -129,3 +132,38 @@ header .grey-row p {
 }
 /* Fine riga grigia */
 /* FINE HEADER */
+
+/* INIZIO MAIN */
+/* Inizio sezione caratteristiche del corso a tre colonne */
+main .features .col {
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 25px;
+  border: 1px solid black;
+}
+main .features .col img {
+  width: 60%;
+  height: 200px;
+}
+
+main .features .col h2 {
+  color: #7bbc00;
+}
+
+main .features .col hr {
+  width: 30%;
+  color: grey;
+  margin: 10px auto;
+}
+
+main .features .col p {
+  color: grey;
+}
+
+main .features .col-center {
+  margin: 0px 5%;
+}
+/* Fine sezione caratteristiche del corso a tre colonne */
+
+/* FINE MAIN */
