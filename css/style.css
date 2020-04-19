@@ -114,5 +114,18 @@ header nav .menu-right .green {
 }
 /* Fine teaser*/
 
+/* Inizio riga grigia */
+header .grey-row {
+  background: #DCDCDC;
+  text-align: center;
+  padding: 25px 0px;
+}
 
+header .grey-row p {
+  color: grey;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 18px;
+}
+/* Fine riga grigia */
 /* FINE HEADER */
