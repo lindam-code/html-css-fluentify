@@ -25,6 +25,27 @@ body {
 }
 /* FINE REGOLE GENERALI */
 
+/* INIZIO REGOLE LINK HELP */
+.help {
+  position: fixed;
+  bottom: 5px;
+  right: 300px;
+}
+
+.help a {
+  text-decoration: none;
+  color: white;
+  border-radius: 2px;
+  padding: 5px 5px;
+  background: #7bbc00;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+/* FINE REGOLE LINK HELP */
+
+
 /* INIZIO HEADER */
 header .navigation-teaser {
   background: #001a4f;
@@ -216,5 +237,7 @@ footer .col-form a {
   border-radius: 2px;
   padding: 12px 5px;
   background: #7bbc00;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 /* FINE FOOTER */
