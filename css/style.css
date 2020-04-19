@@ -140,7 +140,6 @@ main .features .col {
   width: 30%;
   text-align: center;
   padding: 25px;
-  border: 1px solid black;
 }
 main .features .col img {
   width: 60%;
@@ -166,4 +165,21 @@ main .features .col-center {
 }
 /* Fine sezione caratteristiche del corso a tre colonne */
 
+/* Inizio sezione livello a due colonne */
+main .level .col {
+  float: left;
+  width: 50%;
+  padding: 25px 50px;
+}
+
+main .level .col-level {
+  width: 30%;
+  text-align: left;
+}
+
+main .level .col-level p {
+  color: grey;
+  margin: 25px 0px;
+}
+/* Fine sezione livello a due colonne */
 /* FINE MAIN */
