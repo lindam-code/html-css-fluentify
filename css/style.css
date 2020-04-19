@@ -181,5 +181,40 @@ main .level .col-level p {
   color: grey;
   margin: 25px 0px;
 }
+
+main .level .col-level a {
+  color: #008B8B;
+}
 /* Fine sezione livello a due colonne */
 /* FINE MAIN */
+
+/* INIZIO FOOTER */
+footer {
+  background: #DCDCDC;
+  height: 120px;
+}
+
+footer .col {
+  float: left;
+  width: 50%;
+  line-height: 120px;
+}
+
+footer .col-form {
+  color: grey;
+  text-align: center;
+}
+
+footer .col-form .seleziona {
+  text-decoration: underline;
+  margin: 0px 50px;
+}
+
+footer .col-form a {
+  text-decoration: none;
+  color: white;
+  border-radius: 2px;
+  padding: 12px 5px;
+  background: #7bbc00;
+}
+/* FINE FOOTER */
