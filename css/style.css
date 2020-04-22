@@ -185,7 +185,10 @@ main .features .col-center {
   margin: 0px 5%;
 }
 /* Fine sezione caratteristiche del corso a tre colonne */
-
+hr {
+  width: 98%;
+  margin: auto;
+}
 /* Inizio sezione livello a due colonne */
 main .level .col {
   float: left;
