@@ -17,32 +17,27 @@ body {
   margin: auto;
   height: 100%;
 }
-
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
 }
+.cta {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  background:  #7bbc00;
+  border-radius: 2px;
+  font-weight: bold;
+}
 /* FINE REGOLE GENERALI */
 
 /* INIZIO REGOLE LINK HELP */
-.help {
+.help .cta {
   position: fixed;
   bottom: 5px;
   right: 300px;
 }
-
-.help a {
-  text-decoration: none;
-  color: white;
-  border-radius: 2px;
-  padding: 5px 5px;
-  background: #7bbc00;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-
 /* FINE REGOLE LINK HELP */
 
 
@@ -63,15 +58,12 @@ header nav {
 header nav .col {
   float: left;
 }
-
 header nav .logo {
   width: 15%;
 }
-
 header nav .menu-center {
   width: 45%;
 }
-
 header nav .menu-right {
   width: 40%;
 }
@@ -82,11 +74,9 @@ header nav .menu li  {
   display: inline-block;
   margin: 15px 8px;
 }
-
 header nav .menu li a:hover  {
   color: orange;
 }
-
 header nav .menu li a {
   text-transform: uppercase;
   text-decoration: none;
@@ -99,17 +89,13 @@ header nav .menu li a {
 header nav .menu-right {
   text-align: right;
 }
-
 header nav .menu-right .login {
   border: 1px solid white;
   border-radius: 2px;
   padding: 5px 20px;
 }
-
-header nav .menu-right .green {
-  border-radius: 2px;
+header nav .menu-right .cta {
   padding: 7px 5px;
-  background: #7bbc00;
 }
 /* Fine navigazione*/
 
@@ -123,15 +109,8 @@ header nav .menu-right .green {
   line-height: 1.5;
 
 }
-
 .teaser .cta {
-  text-decoration: none;
-  color: white;
-  text-transform: uppercase;
-  background:  #7bbc00;
-  border-radius: 2px;
   padding: 10px;
-  font-weight: bold;
   display: inline-block;
   margin-top: 30px;
 }
@@ -166,21 +145,17 @@ main .features .col img {
   width: 60%;
   height: 200px;
 }
-
 main .features .col h2 {
   color: #7bbc00;
 }
-
 main .features .col hr {
   width: 30%;
   color: grey;
   margin: 10px auto;
 }
-
 main .features .col p {
   color: grey;
 }
-
 main .features .col-center {
   margin: 0px 5%;
 }
@@ -195,17 +170,14 @@ main .level .col {
   width: 50%;
   padding: 25px 50px;
 }
-
 main .level .col-level {
   width: 30%;
   text-align: left;
 }
-
 main .level .col-level p {
   color: grey;
   margin: 25px 0px;
 }
-
 main .level .col-level a {
   color: #008B8B;
 }
@@ -217,30 +189,20 @@ footer {
   background: #DCDCDC;
   height: 120px;
 }
-
 footer .col {
   float: left;
   width: 50%;
   line-height: 120px;
 }
-
 footer .col-form {
   color: grey;
   text-align: center;
 }
-
 footer .col-form .seleziona {
   text-decoration: underline;
   margin: 0px 50px;
 }
-
-footer .col-form a {
-  text-decoration: none;
-  color: white;
-  border-radius: 2px;
+footer .col-form .cta {
   padding: 12px 5px;
-  background: #7bbc00;
-  text-transform: uppercase;
-  font-weight: bold;
 }
 /* FINE FOOTER */
